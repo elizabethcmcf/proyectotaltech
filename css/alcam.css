@@ -1,9 +1,0 @@
-header{background: rgb(124, 184, 147);
-        display: flex;
-    align-items: center;
-   }
-nav{background: rgb(180, 230, 201);
-    display: flex;
-    justify-items: stretch;}
-h2{background: rgb(157, 245, 149);}
-li{display: inline;}

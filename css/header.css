@@ -42,12 +42,15 @@ header {
   margin: 0;
   font-size: 30px;
   line-height: 1.2em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#acffb0;
+  text-shadow: #111 0px 0px 25px 0px;
 }
 .inner p {
   margin: 0;
   font-size: 1.4em;
   font-style: italic;
-  font-family: serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 nav {

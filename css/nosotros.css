@@ -1,3 +1,46 @@
 #mapa{
     text-align: center;
 }
+p{
+    text-align: justify;
+}
+
+.logos{
+    width: 25%;
+    border-radius: 100%;
+    border-color: rgb(16, 14, 14);
+    border-style: solid;
+    border-top: 20px;
+    border-left: 20px;
+    aspect-ratio: 1/1;
+        }
+
+        #logolargo{
+            width: 55%;
+            border-radius: 100%;
+            border-color: rgb(16, 14, 14);
+            border-style: solid;
+            border-top: 20px;
+            border-left: 20px;
+            align-items: center;
+        }
+
+
+        #clientes{
+            display: flex;
+            flex: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+        
+        }
+
+        #clientes2{
+            display: flex;
+justify-content: center;
+margin-top: 15px;
+                }
+
+                #ubicacion{
+background-color: rgb(196, 247, 196);
+border: 1px black solid;
+                        }

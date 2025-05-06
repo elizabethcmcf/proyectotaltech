@@ -1,0 +1,68 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: space-around;
+    align-items: stretch;
+    }
+
+.arts{
+margin-bottom: 50px;
+width:30%;
+padding: 1%;
+text-align: justify;
+font-size: 16px;
+border: 2px solid;
+border-radius: 15px 15px 0px 0px;
+border-bottom: 5px solid;
+border-right: 5px solid;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(174, 248, 148);
+}
+
+.titulo{
+text-align:center;
+text-decoration: underline;
+}
+
+.arts img{
+width: 100%;
+border-radius: 100%;
+border-color: rgb(16, 14, 14);
+border-style: solid;
+border-top: 20px;
+border-left: 20px;
+opacity: 0.5;
+transition: opacity 0.3s ease;
+aspect-ratio: 1/1;
+    }
+
+.arts img:hover{
+        opacity: 1;
+        }
+
+        
+    @media screen and (min-width: 300px) and (max-width: 420px)
+    {#sec1{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(../IMG/pets-3715733_1280.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        align-items: stretch;
+        }
+
+        .arts{
+            margin-bottom: 50px;
+            width:95%;
+            padding: 1%;
+            text-align: justify;
+            font-size: 16px;
+            border: 2px solid;
+            border-radius: 15px 15px 0px 0px;
+            border-bottom: 5px solid;
+            border-right: 5px solid;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
