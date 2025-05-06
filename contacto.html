@@ -32,22 +32,22 @@
     <h2>Envíanos un mensaje</h2>
     <div class="underline">
     </div>
-    <form action="#" method="post" id="contact_form">
-      <div class="name">
-        <label for="name"></label>
-        <input type="text" placeholder="Mi nombre es" name="name" id="name_input" required>
+    <form action="#" method="post" id="formulario">
+      <div class="nombre">
+        <label for="nombre"></label>
+        <input type="text" placeholder="Mi nombre es" name="nombre" id="nombre" required>
       </div>
       <div class="email">
         <label for="email"></label>
-        <input type="email" placeholder="Mi correo es" name="email" id="email_input" required>
+        <input type="email" placeholder="Mi correo es" name="email" id="email" required>
       </div>
-      <div class="telephone">
+      <div class="tel">
         <label for="name"></label>
-        <input type="text" placeholder="Mi número es" name="telephone" id="telephone_input" required>
+        <input type="text" placeholder="Mi número es" name="tel" id="tel" required>
       </div>
-      <div class="subject">
-        <label for="subject"></label>
-        <select placeholder="Asunto" name="subject" id="subject_input" required>
+      <div class="asunto">
+        <label for="asunto"></label>
+        <select placeholder="Asunto" name="asunto" id="asunto" required>
           <option disabled hidden selected>Asunto</option>
           <option>Quiero hacer una pregunta</option>
           <option>Quiero realizar un pedido</option>
@@ -56,18 +56,22 @@
           <option>Otro asunto</option>
         </select>
       </div>
-      <div class="message">
-        <label for="message"></label>
-        <textarea name="message" placeholder="Mi mensaje es..." id="message_input" cols="30" rows="5" required></textarea>
+      <div class="msg">
+        <label for="msg"></label>
+        <textarea name="msg" placeholder="Mi mensaje es..." id="msg" cols="30" rows="5" required></textarea>
       </div>
       <div class="submit">
-        <input type="submit" value="Enviar" id="form_button" />
+        <input type="submit" value="Enviar" id="submit" />
       </div>
     </form>
   </div>
 </section>
 <footer>
-  <p>&copy; 2023 ALCAM. <br> Todos los derechos reservados.</p>
+  <p class="etiquetacont">Correo electrónico:</p><p class="infocont">cultivosalcam@gmail.com</p><br>
+  <p class="etiquetacont">WhatsApp:</p><p class="infocont">+57 312 808 0068</p><br>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cultivosalcam@gmail.com"><img src="IMG/mail.ico" alt=""></a>
+  <a href="https://wa.me/573128080068"><img src="IMG/wa.ico" alt=""></a>
+  <p>&copy; 2025 ALCAM. <br> Todos los derechos reservados.</p>
   <p>Diseñado por Elizabeth Cardona Muñoz</p>
 </footer>
 </body>

@@ -41,6 +41,9 @@ margin-top: 15px;
                 }
 
                 #ubicacion{
-background-color: rgb(196, 247, 196);
-border: 1px black solid;
+background-color: rgb(48, 96, 48);
+border: 1px rgb(36, 34, 34) solid;
+color: white;
+border-width: 0px 8px 8px 0px;
+border-radius: 10px;
                         }

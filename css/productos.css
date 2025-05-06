@@ -9,7 +9,7 @@ section{
 
 .arts{
 margin-bottom: 50px;
-width:30%;
+width: 22%;
 padding: 1%;
 text-align: justify;
 font-size: 16px;
@@ -19,6 +19,8 @@ border-bottom: 5px solid;
 border-right: 5px solid;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: rgb(174, 248, 148);
+display: flex;
+justify-content: center;
 }
 
 .titulo{

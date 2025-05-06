@@ -7,15 +7,16 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/productos.css">
   <link rel="stylesheet" href="css/footer.css">
+  <script src="js/producto.js"></script>
 </head>
 
 <body>
-  
+
 <nav>
    <ul>
-    <li><a href="#">Nosotros</a></li>
-    <li><a href="#">Productos</a></li>
-    <li><a href="#">Contáctanos</a></li>
+    <li><a href="nosotros.html">Nosotros</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="contacto.html">Contáctanos</a></li>
   </ul>
 </nav>
 <header>
@@ -29,46 +30,62 @@
   </div>
 </header>
 <h2>PRODUCTOS</h2><br>
+<form action="">
 <section>
+  <p>Selecciona el producto de tu interés y oprime el botón "CONSULTA" para encontrar información de tu interés: como ficha técnica del producto y nuestros valores añadidos.  </p>
   <article id="art1" class="arts">
-    <h2 class="titulo">Cebolla Junca</h2><br>
+    <label for="cebolla" class="titulo">Cebolla</h2><br>
     <img class="imgs" src="IMG/CEBOLLA.jpg" alt=""><br>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+    <input type="radio" id="producto" name="producto" value="cebolla">
 </article>
 <article id="art2" class="arts">
-    <h2 class="titulo">Cilantro</h2><br>
+    <label for="cilantro" class="titulo">Cilantro</h2><br>
     <img class="imgs" src="IMG/CILANTRO.jpg" alt=""><br>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+    <input type="radio" id="producto" name="producto" required value="cilantro">
 </article>
 <article id="art3" class="arts">
-    <h2 class="titulo">Espinaca Criolla</h2><br>
+    <label for="espinaca" class="titulo">Espinaca</h2><br>
     <img class="imgs" src="IMG/ESPINACA.jpg" alt=""><br>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+    <input type="radio" id="producto" name="producto" required value="espinaca">
 </article>
 <article id="art4" class="arts">
-    <h2 class="titulo">Col</h2><br>
+    <label for="col" class="titulo">Col</h2><br>
     <img class="imgs" src="IMG/cCOL.jpg" alt=""><br>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+    <input type="radio" id="producto" name="producto" required value="col">
 </article>
 <article id="art5" class="arts">
-    <h2 class="titulo">Perejil Crespo</h2><br>
+    <label for="perejil" class="titulo">Perejil</h2><br>
     <img class="imgs" src="IMG/PEREJIL.jpg" alt=""><br>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+    <input type="radio" id="producto" name="producto" required value="perejil">
 </article>
 <article id="art6" class="arts">
-  <h2 class="titulo">Eucalipto</h2><br>
-  <img class="imgs" src="IMG/EUCALIPTO.jpg" alt=""><br>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum libero architecto consequuntur, eius voluptatibus quidem distinctio fuga vitae magnam temporibus voluptatem ducimus laudantium explicabo nesciunt, voluptates reprehenderit similique aperiam cupiditate.</p>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eum earum quibusdam temporibus, laboriosam iure explicabo sed laborum ullam ea! Temporibus, praesentium tenetur vitae dolores ratione et inventore ipsam ducimus!</p>
+  <label for="apio" class="titulo">Apio</h2><br>
+  <img class="imgs" src="IMG/APIO.jpg" alt=""><br>
+  <input type="radio" id="producto" name="producto" required value="apio">
 </article>
+<article id="art7" class="arts">
+  <label for="lechuga" class="titulo">Lechuga</h2><br>
+  <img class="imgs" src="IMG/LECHUGA.jpg" alt=""><br>
+  <input type="radio" name="producto" required value="lechuga">
+</article>
+<article id="art8" class="arts">
+  <label for="eucalipto" class="titulo">Eucalipto</h2><br>
+  <img class="imgs" src="IMG/EUCALIPTO.jpg" alt=""><br>
+  <input type="radio" id="producto" name="producto" required value="eucalipto">
+</article>
+<input type="submit">
 </section>
+</form>
+<section id="ficha"></section>
 <footer>
-  <p>&copy; 2023 ALCAM. <br> Todos los derechos reservados.</p>
+  <div class="footerdiv" id="footer1"></div>
+  <p class="etiquetacont">Correo electrónico: cultivosalcam@gmail.com</p>
+  <p class="etiquetacont">WhatsApp: +57 312 808 0068</p>
+  <div class="footerdiv" id="footer2"></div>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cultivosalcam@gmail.com"><img src="IMG/mail.ico" alt=""></a>
+  <a href="https://wa.me/573128080068"><img src="IMG/wa.ico" alt=""></a>
+  <div class="footerdiv" id="footer3"></div>
+  <p>&copy; 2025 ALCAM. <br> Todos los derechos reservados.</p>
   <p>Diseñado por Elizabeth Cardona Muñoz</p>
 </footer>
 </body>

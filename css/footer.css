@@ -8,8 +8,21 @@ text-align: center;
 }
 
 footer {
-    padding: 10px;
+  display:flex;
+  justify-content: space-evenly;
+    padding-top: 25px;
     border-top: solid 1px #252525;
     background: rgb(97, 157, 109);
+    border-radius: 40px 40px 0px 0px;
+}
+
+footer img {
+  width: 50px;
+  aspect-ratio: 1/1;
+}
+
+.footerdiv {
+display:flex;
+justify-items: stretch;
 }
 
