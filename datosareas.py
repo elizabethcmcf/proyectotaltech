@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+import pandas as pd
 
 datos = pd.read_csv('areascultivadas.csv')
-
 datos_filtrados = datos[
     (datos['Rubro'] == "Cebolla Junca") |
     (datos['Rubro'] == "Cilantro") |
@@ -13,8 +14,6 @@ datos_filtrados = datos[
     (datos['Rubro'] == "Eucalipto") |
     (datos['Rubro'] == "Espinaca")
 ]
-
-
 datos_cebolla=datos_filtrados[datos_filtrados['Rubro']=="Cebolla Junca"]
 datos_cilantro=datos_filtrados[datos_filtrados['Rubro']=="Cilantro"] 
 datos_espinaca=datos_filtrados[datos_filtrados['Rubro']=="Espinaca"]

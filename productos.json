@@ -7,8 +7,7 @@
     "vida_refrigeracion": "1-2 meses",
     "impacto_ambiental": "Moderado, requiere riego regular y control de plagas",
     "descripcion": "Picante y versátil, nuestra cebolla aporta profundidad a cualquier platillo.",
-    "usos": ["Cocina doméstica", "Restauración", "gitIndustria alimentaria", "Condimentos"],
-    "area_cultivo": "ventas_totales_cebolla.png"
+    "usos": ["Cocina doméstica", "Restauración", "gitIndustria alimentaria", "Condimentos"]
   },
   {
     "nombre": "CILANTRO",
