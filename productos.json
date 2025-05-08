@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "CEBOLLA",
+    "presentacion": "Pelada, limpia, empacada en film transparente.",
+    "almacenamiento_recomendado": "Lugar fresco, seco y ventilado",
+    "vida_ambiente": "2-3 semanas",
+    "vida_refrigeracion": "1-2 meses",
+    "impacto_ambiental": "Moderado, requiere riego regular y control de plagas",
+    "descripcion": "Picante y versátil, nuestra cebolla aporta profundidad a cualquier platillo.",
+    "usos": ["Cocina doméstica", "Restauración", "Industria alimentaria", "Condimentos"]
+  },
+  {
+    "nombre": "CILANTRO",
+    "presentacion": "Fresco, limpio, encauchado.",
+    "almacenamiento_recomendado": "Refrigerado, en recipiente húmedo o envuelto en papel",
+    "vida_ambiente": "2-3 días",
+    "vida_refrigeracion": "1-2 semanas",
+    "impacto_ambiental": "Bajo, cultivo de ciclo corto",
+    "descripcion": "Fresco, fragante y ligeramente cítrico, nuestro cilantro transforma platos sencillos en exquisitos.",
+    "usos": ["Cocina internacional", "Salsas", "Gastronomía asiática y mexicana", "Tisanas"]
+  },
+  {
+    "nombre": "ESPINACA",
+    "presentacion": "Fresca, limpia, encauchada.",
+    "almacenamiento_recomendado": "Refrigeración en bolsa perforada o recipiente hermético",
+    "vida_ambiente": "1-2 días",
+    "vida_refrigeracion": "5-7 días",
+    "impacto_ambiental": "Bajo a moderado, cultivo sensible a clima",
+    "descripcion": "Fuente natural de hierro, nuestra espinaca es un superalimento verde por excelencia.",
+    "usos": ["Nutrición deportiva", "Alimentación infantil", "Zumos verdes", "Cocina vegetariana"]
+  },
+  {
+    "nombre": "COL",
+    "presentacion": "Fresca, limpia, encauchada.",
+    "almacenamiento_recomendado": "En refrigeración, sin lavar, en compartimento para vegetales",
+    "vida_ambiente": "1 semana",
+    "vida_refrigeracion": "2-4 semanas",
+    "impacto_ambiental": "Moderado, requiere espacio y nutrientes",
+    "descripcion": "Crujiente, dulce y fibrosa, nuestra col es ideal para fermentados y ensaladas.",
+    "usos": ["Ensaladas", "Chucrut", "Rollos rellenos", "Caldos y sopas"]
+  },
+  {
+    "nombre": "PEREJIL",
+    "presentacion": "Fresco, limpio, encauchado.",
+    "almacenamiento_recomendado": "Refrigerado, en agua o envuelto en paño húmedo",
+    "vida_ambiente": "2-3 días",
+    "vida_refrigeracion": "1-2 semanas",
+    "impacto_ambiental": "Bajo, cultivo simple y rápido",
+    "descripcion": "Verde vibrante y aromático, nuestro perejil alegra cualquier plato.",
+    "usos": ["Decoración culinaria", "Gastronomía mediterránea", "Salsas verdes", "Infusiones"]
+  },
+  {
+    "nombre": "APIO",
+    "presentacion": "Deshojado, empacado en film transparente",
+    "almacenamiento_recomendado": "Refrigeración en bolsa plástica o envuelto en papel de aluminio",
+    "vida_ambiente": "3-5 días",
+    "vida_refrigeracion": "2-4 semanas",
+    "impacto_ambiental": "Moderado, requiere mucha agua",
+    "descripcion": "Refrescante y crujiente, nuestro apio es excelente en dietas detox y caldos nutritivos.",
+    "usos": ["Caldos", "Jugos verdes", "Snacks saludables", "Bases para sopas"]
+  },
+  {
+    "nombre": "LECHUGA",
+    "presentacion": "Fresca, limpia, embolsada.",
+    "almacenamiento_recomendado": "Refrigeración en recipiente ventilado o bolsa perforada",
+    "vida_ambiente": "1-2 días",
+    "vida_refrigeracion": "5-7 días",
+    "impacto_ambiental": "Bajo a moderado, cultivo intensivo en agua",
+    "descripcion": "Ligera, refrescante y versátil, nuestra lechuga es reina de las ensaladas.",
+    "usos": ["Ensaladas frescas", "Toppings de hamburguesas", "Wraps saludables", "Decoración de platos"]
+  },
+  {
+    "nombre": "EUCALIPTO",
+    "presentacion": "Seco, limpio, encauchado.",
+    "almacenamiento_recomendado": "Seco, oscuro, con buena circulación de aire",
+    "vida_ambiente": "Semanas o meses (si es seco)",
+    "vida_refrigeracion": "No necesario salvo en fresco",
+    "impacto_ambiental": "Alto, árbol de gran consumo hídrico y expansión agresiva",
+    "descripcion": "Aromático, medicinal y místico, nuestro eucalipto purifica cuerpo y ambiente.",
+    "usos": ["Infusiones", "Aromaterapia", "Decoración", "Productos farmacéuticos", "Repelente natural"]
+  }
+]
