@@ -47,3 +47,18 @@ color: white;
 border-width: 0px 8px 8px 0px;
 border-radius: 10px;
                         }
+
+                        #nosotros img{
+                            align-items: center;
+                            height: 700px;
+                            border-radius: 25%;
+                            border: 5px rgb(16, 14, 14);
+                            border-style: groove;
+                        }
+#nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+}
