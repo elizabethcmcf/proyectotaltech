@@ -7,7 +7,8 @@
     "vida_refrigeracion": "1-2 meses",
     "impacto_ambiental": "Moderado, requiere riego regular y control de plagas",
     "descripcion": "Picante y versátil, nuestra cebolla aporta profundidad a cualquier platillo.",
-    "usos": ["Cocina doméstica", "Restauración", "Industria alimentaria", "Condimentos"]
+    "usos": ["Cocina doméstica", "Restauración", "gitIndustria alimentaria", "Condimentos"],
+    "area_cultivo": "ventas_totales_cebolla.png"
   },
   {
     "nombre": "CILANTRO",
@@ -75,7 +76,7 @@
     "almacenamiento_recomendado": "Seco, oscuro, con buena circulación de aire",
     "vida_ambiente": "Semanas o meses (si es seco)",
     "vida_refrigeracion": "No necesario salvo en fresco",
-    "impacto_ambiental": "Alto, árbol de gran consumo hídrico y expansión agresiva",
+    "impacto_ambiental": "Alto, árbol de gran consumo hídrico y expansión agresiva. La realizamos con alta responsabilidad.",
     "descripcion": "Aromático, medicinal y místico, nuestro eucalipto purifica cuerpo y ambiente.",
     "usos": ["Infusiones", "Aromaterapia", "Decoración", "Productos farmacéuticos", "Repelente natural"]
   }

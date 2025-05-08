@@ -46,7 +46,8 @@ aspect-ratio: 1/1;
     border-radius: 15px 15px 0px 0px;
     border-bottom: 5px solid;
     border-right: 5px solid;
-    background-color: rgb(174, 248, 148);
+    background-color: rgb(48, 96, 48);
+    color:white
 }
 
 .arts img:hover{
