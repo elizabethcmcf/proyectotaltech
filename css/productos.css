@@ -61,11 +61,29 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
     }
-
+ol{text-align: justify;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
     a{
         text-align: justify;
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-top: 10px;
         margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #474544;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 7px;
+            text-align: center;
+            text-transform: uppercase;
+          }
+
+          body{
+            background-color: #dad3ce;
         }

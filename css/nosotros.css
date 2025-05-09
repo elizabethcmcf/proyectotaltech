@@ -3,7 +3,11 @@
 }
 p{
     text-align: justify;
-}
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 
 .logos{
     width: 25%;
@@ -62,3 +66,19 @@ border-radius: 10px;
     flex-wrap: wrap;
     padding: 3px;
 }
+body{
+    background-color: #dad3ce;
+}
+
+h2 {
+    color: #474544;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+#ubicacion h2 {
+    color: #ffffff;
+  }
