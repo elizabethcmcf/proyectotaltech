@@ -151,3 +151,9 @@ textarea {
 #container {
 padding:40px 20px 0px 20px;
 }
+
+#enlaces{
+  margin-top: 40px;
+display: flex;
+justify-content: space-between;
+}
