@@ -1,50 +1,70 @@
+footer {
+  display: flex;
+  flex-direction: row; /* Explicitly set to row (default) */
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: rgb(48, 96, 48);
+  border-top: 1px solid #e7e7e7;
+  flex-wrap: wrap; /* Allow items to wrap on small screens */
+}
+
+.footerdiv {
+  flex: 1;
+  min-width: 200px; /* Prevent items from getting too narrow */
+  padding: 10px; /* Reduced padding for better mobile */
+  box-sizing: border-box;
+}
+
+/* Fix your class names (you have IDs in HTML but classes in CSS) */
+#footer1, #footer2 {
+  text-align: left;
+}
+
+#footer3 {
+  text-align: right;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footerdiv {
+    flex: none;
+    width: 100%;
+    padding: 0;
+    text-align: center !important; /* Override previous alignments */
+  }
+  
+  #footer3 {
+    order: 1; /* Optional: move copyright to bottom when stacked */
+  }
+}
+
+/* Keep all your existing styles below */
 footer p {
   margin: 0;
   font-size: 13px;
   font-style: italic;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-align: center;
+  text-align: center;
 }
-
 
 footer img {
   width: 50px;
   aspect-ratio: 1/1;
 }
 
+.etiquetacont {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    background-color:  rgb(48, 96, 48);
-    border-top: 1px solid #e7e7e7;
-  }
-  
-  .footerdiv {
-    flex: 1;
-    padding-left: 100px;
-  }
-  
-  .footer1 {
-    text-align: left;
-  }
-  
-  .footer2{
-    text-align: left;
-  }
-  
-  .footer3{
-    text-align: right;
-  }
-  
-  .etiquetacont {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .infocont {
-    margin-bottom: 15px;
-  }
+.infocont {
+  margin-bottom: 15px;
+}
