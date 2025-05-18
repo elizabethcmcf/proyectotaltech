@@ -25,17 +25,34 @@ text-align:center;
 text-decoration: underline;
 }
 
-.arts img{
-height: 165px;
-border-radius: 100%;
-border-color: rgb(16, 14, 14);
-border-style: solid;
-border-top: 20px;
-border-left: 20px;
-opacity: 0.5;
-transition: opacity 0.3s ease;
-aspect-ratio: 1/1;
-    }
+.arts img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 100%;
+  border: 2px solid rgb(16, 14, 14);
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  aspect-ratio: 1/1;
+}
+
+
+@media (max-width: 768px) {
+  .arts {
+    width: 90%; 
+    margin-bottom: 30px;
+  }
+  
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .arts {
+    width: 45%;
+  }
+}
 
 #ficha{
     display:block;
